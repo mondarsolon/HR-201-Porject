@@ -24,14 +24,11 @@ const breadcrumbs: BreadcrumbItem[] = [
   },
 ];
 
-
-
 export default function Overview() {
  
  return (
   <AppLayout breadcrumbs={breadcrumbs}>
   
-
     <EmployeeFileTabs />
     <div className="p-6">
       <OverviewTabs />

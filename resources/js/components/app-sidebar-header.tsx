@@ -10,7 +10,7 @@ export function AppSidebarHeader({ breadcrumbs = [] }: { breadcrumbs?: Breadcrum
                 <SidebarTrigger className="-ml-1" />
                 <Breadcrumbs breadcrumbs={breadcrumbs} />
             </div>
-            <div className='flex items-center gap 8'> 
+            <div className='flex items-center gap '> 
              <Switch/>  
             </div>
            

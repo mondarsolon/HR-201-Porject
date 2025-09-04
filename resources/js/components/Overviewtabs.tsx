@@ -270,13 +270,13 @@ export default function OverviewTabs({ selectedEmployee = mockEmployee }: Overvi
                     <EmployeeCard
                         title="Medical Information"
                         actions={
-                            <Button variant="ghost" size="sm" className="text-red-500">
+                            <Button variant="ghost" size="sm" className="text-red-500 ">
                                 <Building className="h-4 w-4" />
                             </Button>
                         }
                     >
                         {selectedEmployee.medicalInfo.map((medical, index) => (
-                            <div key={index} className="flex items-center justify-between rounded-lg bg-gray-50 p-4">
+                            <div key={index} className="flex items-center justify-between rounded-lg dark:bg-black bg-gray-50 p-4">
                                 <div>
                                     <div className="font-medium">{medical.clinic}</div>
                                     <div className="text-sm text-gray-500">{medical.date}</div>
